@@ -113,6 +113,7 @@ ul#social-networks i {
 
 .blue {
     background-color: aqua;
+   
 }
 .progres ul li{
     list-style-type: none;
@@ -122,5 +123,57 @@ ul#social-networks i {
 #job {
     flex-basis: 60%;
 }
+#job h2 {
+    margin-left: 5%;
+    text-transform: uppercase;
+}
 
 
+#progres {
+    display: flex;
+    flex-direction: column;
+ 
+    
+}
+.progres {
+    display: flex;
+    justify-content: center;
+    min-height: 65%;
+    
+}
+#progres section ul{list-style-type: none;}
+.progres{
+    
+    display: flex;
+    justify-content: center;
+  
+
+}
+.progres ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-basis: 
+}
+.progres ul li{
+    display: flex;
+    
+    justify-content: space-around;
+    flex-basis: 100%;
+}
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.progressMain {
+    flex-basis: 50%;
+   
+}
+.progressMain header{
+   padding-left: 40px;
+    text-transform: uppercase;
+}
